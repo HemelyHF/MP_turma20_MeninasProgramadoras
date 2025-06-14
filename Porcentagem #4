@@ -17,3 +17,5 @@ while gasto < dinheiro:
 
 print('%.2f' % gasto)
 print(contador)
+
+*.python linguist-detectable=true
