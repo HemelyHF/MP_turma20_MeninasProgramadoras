@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+valor = int(input())  
+positivo = 0
+negativo = 0 
+
+for something in range(valor):
+  entrada = float(input())
+  if entrada > 0:
+    positivo = positivo + entrada
+  elif entrada < 0:
+    negativo = negativo + entrada
+
+soma = negativo + positivo
+print('%.2f' % soma)
