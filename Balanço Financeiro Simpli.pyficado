@@ -12,3 +12,4 @@ for something in range(valor):
 
 soma = negativo + positivo
 print('%.2f' % soma)
+
